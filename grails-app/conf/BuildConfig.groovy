@@ -68,6 +68,7 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.8"
         compile "org.grails.plugins:rabbitmq:1.0.0"
         compile "org.grails.plugins:spring-security-core:2.0.0"
+        compile "org.grails.plugins:csv:0.3.1"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
         //runtime ":cached-resources:1.1"
