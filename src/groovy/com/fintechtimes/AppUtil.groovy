@@ -31,7 +31,7 @@ class AppUtil {
     public static String getStaticResourcesDirPath() {
         String path = '';
         if (GrailsUtil.developmentEnv) {
-            path = ServletContextHolder.getServletContext().getRealPath("/") + "TestFiles"
+            path = ServletContextHolder.getServletContext().getRealPath("/") + "testFiles"
         } else {
             path = '/home/ubuntu/fintechtimes'
         }

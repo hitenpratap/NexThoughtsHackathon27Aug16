@@ -2,8 +2,10 @@ package com.hackathon
 
 import com.rometools.rome.feed.synd.SyndFeed
 import com.rometools.rome.io.SyndFeedInput;
-import com.rometools.rome.io.XmlReader;
+import com.rometools.rome.io.XmlReader
+import grails.plugin.springsecurity.annotation.Secured;
 
+@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
 class RssFeedController {
 
     def index() {}
@@ -13,11 +15,6 @@ class RssFeedController {
 
         SyndFeedInput input = new SyndFeedInput();
         SyndFeed feed = input.build(new XmlReader(feedUrl));
-
-        /*feed.each {
-            println it.SyndFeedImpl.entries[0].link
-        }*/
-
         for(int i=0;i<feed.entries.size();i++){
             if(feed.entries[i].description.value.find(/(paytm)|(payments)|(fintech)|(freecharge)|(faircent)|(lending kart)/)){
                 println feed.entries[i].title
@@ -25,10 +22,6 @@ class RssFeedController {
                 println feed.entries[i].description.value
             }
         }
-
-        //   println feed.entries.size()
-
         render  ""+feed
-
     }
 }
