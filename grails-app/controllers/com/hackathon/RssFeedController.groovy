@@ -11,16 +11,17 @@ import grails.plugin.springsecurity.annotation.Secured;
 @Secured('ROLE_ADMIN')
 class RssFeedController {
     def springSecurityService
-    def index() {}
+    def index() {
+
+        render(view: 'home')
+    }
 
     def fetchRssContent(){
         List allURL=[]
-     /*   allURL.add("http://www.banktech.com/rss_simple.asp?f_n=949&f_ln=Banking%20Channels")
+        allURL.add("http://www.banktech.com/rss_simple.asp?f_n=949&f_ln=Banking%20Channels")
         allURL.add("https://www.finextra.com/rss/channel.aspx?channel=mobile")
-        allURL.add("https://www.finextra.com/rss/channel.aspx?channel=payments")*/
-       //    allURL.add("http://feeds.feedburner.com/TechCrunch/fundings-exits")
+        allURL.add("https://www.finextra.com/rss/channel.aspx?channel=payments")
         allURL.add("http://feeds.feedburner.com/TechCrunch/")
-
         allURL.add("http://www.mobilepaymentstoday.com/rss/")
         allURL.add("http://thenextweb.com/feed/")
         allURL.each{
