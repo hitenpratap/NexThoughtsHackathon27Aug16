@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7aa4ee-b602-4d0d-97fc-bb4f3153e642" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdom2-2.0.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/rome-utils-1.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slcache/.index" afterPath="$PROJECT_DIR$/.slcache/.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16-grailsPlugins.iml" afterPath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16.iml" afterPath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/com/fintechtimes/AppUtil.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/fintechtimes/AppUtil.groovy" />
-    </list>
+    <list default="true" id="7c7aa4ee-b602-4d0d-97fc-bb4f3153e642" name="Default" comment="" />
     <ignored path="NexThoughtsHackathon27Aug16.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -686,12 +675,12 @@
       <created>1472276068807</created>
       <option name="number" value="Default" />
       <updated>1472276068807</updated>
-      <workItem from="1472276071891" duration="5287000" />
+      <workItem from="1472276071891" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5287000" />
+    <option name="totallyTimeSpent" value="5643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
