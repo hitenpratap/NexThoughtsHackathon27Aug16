@@ -6,7 +6,7 @@ import com.fintechtimes.Enums
 /**
  * Created by hitenpratap on 27/08/16.
  */
-class   ArticleQueueManager {
+class ArticleQueueManager {
 
     Date dateCreated
     Date lastUpdated
