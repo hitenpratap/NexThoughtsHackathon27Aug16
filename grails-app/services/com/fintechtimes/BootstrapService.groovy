@@ -33,7 +33,7 @@ class BootstrapService {
 
     public void createAdmin() {
         if (Admin.count < 1) {
-            Admin admin = new Admin(username: "admin1@email.com", password: "admin1928", firstName: "Admin", lastName: "Singh")
+            Admin admin = new Admin(username: "admin@email.com", password: "123456", firstName: "Admin", lastName: "Singh")
             AppUtil.save(admin)
             UserRole.create(admin, Role.findByAuthority("ROLE_ADMIN"))
         }
