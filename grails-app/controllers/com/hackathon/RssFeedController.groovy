@@ -15,7 +15,11 @@ class RssFeedController {
 
     def fetchRssContent(){
         List allURL=[]
-        allURL.add("http://www.banktech.com/rss_simple.asp?f_n=949&f_ln=Banking%20Channels")
+     /*   allURL.add("http://www.banktech.com/rss_simple.asp?f_n=949&f_ln=Banking%20Channels")
+        allURL.add("https://www.finextra.com/rss/channel.aspx?channel=mobile")
+        allURL.add("https://www.finextra.com/rss/channel.aspx?channel=payments")*/
+       //    allURL.add("http://feeds.feedburner.com/TechCrunch/fundings-exits")
+        allURL.add("http://feeds.feedburner.com/TechCrunch/")
 
         allURL.each{
             URL feedUrl = new URL(it);
