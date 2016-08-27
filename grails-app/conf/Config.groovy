@@ -98,7 +98,15 @@ environments {
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
-
+rabbitmq {
+    connectionfactory {
+        username = 'guest'
+        password = 'guest'
+        hostname = 'localhost'
+    }
+    queues = {
+        //All Queues to be declared
+    }  }
 // log4j configuration
 log4j = {
     // Example of changing the log pattern for the default console appender:
