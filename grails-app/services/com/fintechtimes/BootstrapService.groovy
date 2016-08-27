@@ -21,6 +21,14 @@ class BootstrapService {
         admin.username="admin"
         admin.password="nextdefault"
         admin.save(flush: true)
+        println(">>>>>>>>>>>>>>")
+        Role role=Role.findByAuthority("ROLE_ADMIN")
+        println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+        UserRole userRole=new UserRole()
+        userRole.user=admin
+        userRole.role=role
+        userRole.save(flush: true)
+
     }
 
     public void createRoles() {
