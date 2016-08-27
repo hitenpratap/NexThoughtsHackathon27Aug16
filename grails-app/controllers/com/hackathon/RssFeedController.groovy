@@ -21,6 +21,8 @@ class RssFeedController {
        //    allURL.add("http://feeds.feedburner.com/TechCrunch/fundings-exits")
         allURL.add("http://feeds.feedburner.com/TechCrunch/")
 
+        allURL.add("http://www.mobilepaymentstoday.com/rss/")
+        allURL.add("http://thenextweb.com/feed/")
         allURL.each{
             URL feedUrl = new URL(it);
 
@@ -30,9 +32,10 @@ class RssFeedController {
             for(int i=0;i<feed.entries.size();i++){
                 try {
                     if(feed.entries[i].description.value.find(/(paytm)|(payments)|(fintech)|(freecharge)|(faircent)|(lending kart)/)){
-                        println feed.entries[i].title
-                        println feed.entries[i].link
-                        println feed.entries[i].description.value
+//                     println i
+//                        println feed.entries[i].title
+//                        println feed.entries[i].link
+//                        println feed.entries[i].description.value
                         if(!ArticleQueueManager.findByArticleURL(feed.entries[i].link))
                         {
                             ArticleQueueManager articleQueueManager=new ArticleQueueManager()
@@ -40,7 +43,6 @@ class RssFeedController {
                             articleQueueManager.admin=admin
                             articleQueueManager.save(flush: true)
                         }
-
                     }
                 }catch (Exception e){
                     println("Exception is "+e.getMessage())
