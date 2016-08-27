@@ -1,5 +1,6 @@
 package com.fintechtimes
 
+import com.fintechtimes.Admin.Admin
 import com.fintechtimes.Author.Author
 
 /**
@@ -10,6 +11,16 @@ class BootstrapService {
     public void main() {
         createRoles()
         createAuthors()
+        createAdmin()
+    }
+
+    public void createAdmin(){
+        Admin admin=new Admin()
+        admin.firstName="admin"
+        admin.lastName="Hackathon"
+        admin.username="admin"
+        admin.password="nextdefault"
+        admin.save(flush: true)
     }
 
     public void createRoles() {
