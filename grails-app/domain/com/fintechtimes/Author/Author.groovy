@@ -1,5 +1,6 @@
 package com.fintechtimes.Author
 
+import com.fintechtimes.Article.Article
 import com.fintechtimes.User
 
 /**
@@ -8,6 +9,8 @@ import com.fintechtimes.User
 class Author extends User {
 
     String bio
+
+    static hasMany = [articles: Article, followers: Follower]
 
     static mapping = {
         bio type: 'text'

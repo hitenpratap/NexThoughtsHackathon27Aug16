@@ -11,7 +11,7 @@ class TestController {
     def articleScrapService
 
     def aa = {
-        articleScrapService.scrapNewBigWhat("paytm")
+        articleScrapService.scrapNextBigWhatDetails("jhbkjbjk")
     }
 
 }

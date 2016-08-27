@@ -134,7 +134,10 @@ rabbitmq {
         username = 'guest'
         password = 'guest'
         hostname = 'localhost'
-        consumers = 5
+//        consumers = 5
+    }
+    queues = {
+        articleURLQueue autoDelete: false, durable: true, exclusive: false
     }
 }
 

@@ -9,4 +9,8 @@ class Enums {
         PROCESSED, PROCESSING, INITIALISED
     }
 
+    public static enum ArticleSource {
+        NEXT_BIG_WHAT, TECH_IN_ASIA
+    }
+
 }

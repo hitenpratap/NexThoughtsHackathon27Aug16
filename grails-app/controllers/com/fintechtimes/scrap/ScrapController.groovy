@@ -14,7 +14,7 @@ class ScrapController {
 
     def scrapNextBigWhat = {
         keywords.each { keyword ->
-            articleScrapService.scrapNewBigWhat(URLEncoder.encode(keyword, "UTF-8"))
+            articleScrapService.scrapNewBigWhat(URLEncoder.encode(keyword, "UTF-8").replace("+", "%20"))
         }
     }
 
