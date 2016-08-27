@@ -26,7 +26,7 @@ class ArticleScrapService {
                     println("Article Title  Keyword===>>>>${keyword}       =====>>>>>>       ${articleTitle}")
                     println("Article URL=====>>>>>>       ${articleURL}")
                     ArticleQueueManager articleQueueManager = ArticleQueueManager.findOrCreateByArticleURL(articleURL)
-                    articleQueueManager.admin = Admin.findByUsername("admin1@email.com")
+                    articleQueueManager.admin = Admin.findByUsername("admin@email.com")
                     articleQueueManager.articleSource = Enums.ArticleSource.NEXT_BIG_WHAT
                     if (AppUtil.save(articleQueueManager))
                         articleMessageService.sendArticleMessage(articleQueueManager.uniqueId)
@@ -62,7 +62,7 @@ class ArticleScrapService {
                     println("Article Title  Keyword===>>>>${keyword}       =====>>>>>>       ${articleTitle}")
                     println("Article URL=====>>>>>>       ${articleURL}")
                     ArticleQueueManager articleQueueManager = ArticleQueueManager.findOrCreateByArticleURL(articleURL)
-                    articleQueueManager.admin = Admin.findByUsername("admin1@email.com")
+                    articleQueueManager.admin = Admin.findByUsername("admin@email.com")
                     articleQueueManager.articleSource = Enums.ArticleSource.TECH_IN_ASIA
                     if (AppUtil.save(articleQueueManager))
                         articleMessageService.sendArticleMessage(articleQueueManager.uniqueId)
