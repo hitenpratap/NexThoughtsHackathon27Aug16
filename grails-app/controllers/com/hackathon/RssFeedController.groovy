@@ -35,7 +35,7 @@ class RssFeedController {
                 try {
                     if(feed.entries[i].description.value.find(/(paytm)|(payments)|(fintech)|(freecharge)|(faircent)|(lending kart)/)){
 //                     println i
-                        
+
 //                        println feed.entries[i].title
 //                        println feed.entries[i].link
 //                        println feed.entries[i].description.value

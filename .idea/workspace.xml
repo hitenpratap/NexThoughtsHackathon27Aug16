@@ -2,241 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7aa4ee-b602-4d0d-97fc-bb4f3153e642" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/conf/GebConfig.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/fintechtimes/scrap/ScrapController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/ArticleScrapService.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_Annotations$AnnotationChecker$1_2006.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_Annotations_6254.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_ConstructorBindingImpl_13930.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_DefaultConstructionProxyFactory$1_2160.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_DefaultConstructionProxyFactory_2000.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_InjectorImpl_34320.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_ProviderMethodsModule_7719.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_SingleFieldInjector_3751.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_SingleMethodInjector$1_1300.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_SingleMethodInjector_4029.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_TypeConverterBindingProcessor$5_2256.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_TypeConverterBindingProcessor_5802.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_internal_util_Classes_2349.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_matcher_Matchers_5242.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_google_inject_spi_InjectionPoint_18683.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_intellij_rt_execution_application_AppMain_4910.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_sun_tools_javac_Main_1557.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_sun_tools_javac_model_JavacElements_20629.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_sun_tools_javac_processing_JavacProcessingEnvironment$ServiceIterator_3349.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_sun_tools_javac_processing_JavacProcessingEnvironment_28380.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/com_sun_tools_javac_util_BaseFileManager_10346.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/grails_build_logging_GrailsConsole_19763.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/grails_util_BuildSettings_58899.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/grails_util_Holders_8104.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_grape_Grape_4554.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_lang_GroovyShell_16339.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_lang_MetaClassRegistry$MetaClassCreationHandle_2815.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_util_AntBuilder_13759.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovy_xml_XmlUtil_9684.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovyjarjarantlr_ASTFactory_6276.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovyjarjarantlr_CharScanner_8286.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/groovyjarjarantlr_Utils_1849.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/javassist_util_proxy_ProxyFactory_29782.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/javax_servlet_http_HttpServlet_8296.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/jline_TerminalFactory_4721.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_change_ChangeFactory_3240.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_change_custom_CustomChangeWrapper_6255.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_database_DatabaseFactory_4285.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_database_typeconversion_TypeConverterFactory_2985.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_parser_ChangeLogParserFactory_3550.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_precondition_CustomPreconditionWrapper_4770.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_precondition_PreconditionFactory_2849.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_serializer_ChangeLogSerializerFactory_4207.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_serializer_core_string_StringChangeLogSerializer_7762.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_serializer_core_xml_XMLChangeLogSerializer_14710.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_servicelocator_ServiceLocator_9501.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_snapshot_DatabaseSnapshotGeneratorFactory_3991.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_sql_visitor_SqlVisitorFactory_2239.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_sqlgenerator_SqlGeneratorFactory_7806.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/liquibase_util_ObjectUtil_3343.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_catalina_connector_Connector_15735.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_catalina_deploy_NamingResources_24873.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_commons_lang_builder_HashCodeBuilder_9642.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_http_impl_client_AbstractHttpClient_29667.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_config_PropertySetter_8022.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_helpers_Loader_4244.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_helpers_OptionConverter_10730.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_log4j_spi_LoggingEvent_9937.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$CacheItem_4489.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$ListField_2585.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$MapField_2923.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$ObjectField_1816.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_maven_model_interpolation_StringSearchModelInterpolator$InterpolateObjectAction$StringField_1794.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tomcat_util_net_SSLImplementation_2818.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_AntClassLoader_24091.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_AntTypeDefinition_7441.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ComponentHelper_24103.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$10_2345.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$11_2942.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$13_1951.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$3_1433.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$5_1586.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$7_1504.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$8_1670.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$9_1944.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$AddNestedCreator_2311.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$AttributeSetter_2415.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper$CreateNestedCreator_1174.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_IntrospectionHelper_27155.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ProjectHelperRepository$ConstructingIterator_1722.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_ProjectHelperRepository_7631.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_Project_34948.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_TaskAdapter_4324.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_dispatch_DispatchUtils_3253.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_Execute_15331.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_ProcessDestroyer_4865.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_Property_12965.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_taskdefs_optional_native2ascii_SunNative2Ascii_3001.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_EnumeratedAttribute_2731.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_Mapper_5689.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_Path_13759.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_selectors_ExtendSelector_4695.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_types_selectors_modifiedselector_ModifiedSelector_15818.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_util_ClasspathUtils_5819.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_ant_util_ReflectUtil_3716.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_apache_tools_zip_ExtraFieldUtils_6721.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_antlr_parser_GroovyLexer_57638.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_ast_ClassNode_35329.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_ast_FieldNode_4448.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_classgen_AnnotationVisitor_13237.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_classgen_Verifier_37920.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_classgen_asm_MethodCaller_2521.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_classgen_asm_WriterController_13104.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_control_ParserPluginFactory_1858.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_control_ResolveVisitor_35225.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_GrailsScriptRunner_30969.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_api_BaseSettingsApi_17398.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_interactive_GrailsInteractiveCompletor_9297.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_support_ClasspathConfigurer_9884.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_support_GrailsBuildEventListener_9661.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_cli_support_GrailsStarter_8744.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_AbstractGrailsClass_9426.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_AnnotationDomainClassArtefactHandler_1961.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ArtefactHandlerAdapter_4855.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher$GetterPropertyFetcher_1979.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_ClassPropertyFetcher_11162.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_DefaultGrailsControllerClass_13234.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_DomainClassArtefactHandler_5019.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_GrailsClassUtils_25119.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_commons_GrailsDomainConfigurationUtil_14183.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_compiler_injection_GrailsAwareInjectionOperation_6460.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_io_support_GrailsResourceUtils_18011.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_orm_hibernate_cfg_AbstractGrailsDomainBinder_87388.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_AbstractGrailsPluginManager_17062.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPluginManager_31165.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_DefaultGrailsPlugin_28003.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_GrailsVersionUtils_9251.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_log4j_Log4jConfig_23049.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_log4j_web_util_Log4jConfigListener_3424.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_services_ServicesGrailsPlugin_7695.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_plugins_web_api_ControllersApi_19154.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_project_container_GrailsProjectRunner$_loadServerFactory_closure1_2617.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_resolve_DependencyManagerConfigurer_16481.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_grails_validation_ConstrainedProperty_27095.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedClass$1$1_1292.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedClass$2$1_1042.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedClass$3$1_1296.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedClass_12194.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedConstructor_4331.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedField_2139.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_CachedMethod_9622.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_ClassLoaderForClassArtifacts_3728.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_reflection_GeneratedMetaMethod$Proxy_3181.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_ConversionHandler_2486.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_DefaultGroovyMethods_226273.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_InvokerHelper_22242.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_MethodRankHelper_12045.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_AbstractCallSite_12749.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_CallSiteGenerator_9496.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce_1809.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap_1943.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PogoMetaMethodSite$PogoCachedMethodSite_2146.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrapNoCoerce_1767.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap_1874.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_callsite_PojoMetaMethodSite$PojoCachedMethodSite_1958.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_m12n_StandardPropertiesModuleFactory_2299.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_metaclass_MetaClassRegistryImpl$1_2163.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_metaclass_MetaClassRegistryImpl_17643.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_metaclass_ReflectionMetaMethod_2520.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_runtime_typehandling_DefaultTypeTransformation_18803.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_tools_javac_JavacJavaCompiler_8367.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_transform_ASTTransformationCollectorCodeVisitor_10649.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_transform_ASTTransformationVisitor_13715.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_transform_LogASTTransformation_6235.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_transform_stc_StaticTypeCheckingSupport_32145.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_vmplugin_VMPluginFactory_1702.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_vmplugin_v5_Java5_18923.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_groovy_vmplugin_v5_PluginDefaultGroovyMethods_3728.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_plexus_interpolation_reflection_ClassMap_7175.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_codehaus_plexus_interpolation_reflection_ReflectionValueExtractor_3476.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_aether_impl_DefaultServiceLocator$Entry_4454.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_BeanProperties_1662.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_BeanPropertyField_3127.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_BeanPropertySetter_3709.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_DeclaredMembers$View$1_956.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_DeclaredMembers$View$2_946.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_bean_DeclaredMembers$View$3_944.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_inject_LazyBeanEntry_4333.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_inject_QualifyingStrategy$4_1905.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_inject_TypeArguments_4895.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_plexus_ClassRealmUtils_2913.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_plexus_PlexusAnnotatedBeanModule$PlexusAnnotatedBeanSource_1348.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_plexus_PlexusPropertyBinder_3645.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_plexus_PlexusXmlBeanConverter_11330.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_eclipse_sisu_space_QualifiedTypeBinder_10066.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_grails_datastore_gorm_finders_DynamicFinder_18942.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_grails_datastore_mapping_reflect_ClassPropertyFetcher_13909.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_grails_plugins_web_rest_api_ControllersRestApi_23529.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_grails_plugins_web_rest_plugin_RestResponderGrailsPlugin_8171.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_hibernate_mapping_Collection_17586.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_BeanUtils_14992.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_BeanWrapperImpl_29589.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_ExtendedBeanInfoFactory_1506.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_GenericTypeAwarePropertyDescriptor_4633.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_TypeConverterDelegate_17998.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_annotation_QualifierAnnotationAutowireCandidateResolver_11221.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_config_DependencyDescriptor_6124.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_support_AbstractAutowireCapableBeanFactory_43380.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_support_AbstractBeanDefinition_19283.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_beans_factory_support_SimpleInstantiationStrategy_6780.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_Constants_6599.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_annotation_AnnotationUtils_10643.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_convert_support_IdToEntityConverter_4119.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_convert_support_ObjectToObjectConverter_4514.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_io_support_PathMatchingResourcePatternResolver_13649.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_io_support_SpringFactoriesLoader_5048.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_AbstractRecursiveAnnotationVisitor_3690.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_AnnotationAttributesReadingVisitor_3200.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_classreading_RecursiveAnnotationAttributesVisitor_3408.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_core_type_filter_AnnotationTypeFilter_3249.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_orm_hibernate3_LocalSessionFactoryBean_20446.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_orm_jpa_support_PersistenceAnnotationBeanPostProcessor_14386.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_security_authentication_DefaultAuthenticationEventPublisher_7586.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_security_authentication_dao_ReflectionSaltSource_2939.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_security_core_context_SecurityContextHolder_3494.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_util_ClassUtils_23397.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_util_ReflectionUtils_13409.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_web_util_UrlPathHelper_10896.bytes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.slcache/org_springframework_web_util_WebUtils_16125.bytes" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16-grailsPlugins.iml" afterPath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16.iml" afterPath="$PROJECT_DIR$/NexThoughtsHackathon27Aug16.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/fintechtimes/TestController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/fintechtimes/TestController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/fintechtimes/Article/ArticleQueueManager.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/fintechtimes/Article/ArticleQueueManager.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp" afterPath="$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp" />
     </list>
     <ignored path="NexThoughtsHackathon27Aug16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,24 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RssFeedController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RssFeedController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4159292">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state vertical-scroll-proportion="-22.2">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#23#58#0" expanded="true" />
-                <marker date="1472291095408" expanded="true" signature="2251:2267" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BootstrapService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.375">
-              <caret line="173" column="22" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+            <state vertical-scroll-proportion="2.0882354">
+              <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -305,6 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp" />
       </list>
     </option>
   </component>
@@ -312,6 +91,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
@@ -590,6 +376,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NexThoughtsHackathon27Aug16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NexThoughtsHackathon27Aug16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fintechtimes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1108,7 +916,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363000" />
+    <option name="totallyTimeSpent" value="2351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1169,7 +977,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#58#0" expanded="true" />
-            <marker date="1472291095408" expanded="true" signature="2251:2267" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1341,14 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8938053">
@@ -1448,22 +1247,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.375">
-          <caret line="173" column="22" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+        <state vertical-scroll-proportion="-22.2">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/rssFeed/home.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4159292">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="e#23#58#0" expanded="true" />
-            <marker date="1472291095408" expanded="true" signature="2251:2267" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="2.0882354">
+          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

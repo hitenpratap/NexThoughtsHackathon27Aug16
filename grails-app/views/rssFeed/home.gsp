@@ -210,6 +210,77 @@
         </div>
     </header><!--/#navigation-->
 
+%{--**********************************************************header*******************************************************--}%
+
+
+    <div class="container-fluid">
+
+
+
+        <div class="section">
+            <div class="row">
+
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div id="site-content" class="site-content">
+                        <h1 class="section-title title"><a href="listing.html">Top News</a></h1>
+                        <div class="middle-content">
+
+                            <div class="section health-section">
+                                <h1 class="section-title"><a href="listing.html">Politics</a></h1>
+                                <div class="health-feature">
+
+                                    <div class="post">
+                                        <div class="entry-header">
+                                            <div class="entry-thumbnail">
+                                                <a href="news-details.html"><img class="img-responsive" src="images/post/politics/1.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="entry-meta">
+                                                <ul class="list-inline">
+                                                    <li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Jan 25, 2016 </a></li>
+                                                    <li class="views"><a href="#"><i class="fa fa-eye"></i>21k</a></li>
+                                                    <li class="loves"><a href="#"><i class="fa fa-heart-o"></i>372</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="entry-title">
+                                                <a href="news-details.html">The same could be said for the senator's once-obscure spoken word folk album</a>
+                                            </h2>
+                                        </div>
+                                    </div><!--/post-->
+                                    <div class="post">
+                                        <div class="entry-header">
+                                            <div class="entry-thumbnail">
+                                                <a href="news-details.html"><img class="img-responsive" src="images/post/politics/3.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="entry-meta">
+                                                <ul class="list-inline">
+                                                    <li class="publish-date"><a href="#"><i class="fa fa-clock-o"></i> Jan 25, 2016 </a></li>
+                                                    <li class="views"><a href="#"><i class="fa fa-eye"></i>21k</a></li>
+                                                    <li class="loves"><a href="#"><i class="fa fa-heart-o"></i>372</a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="entry-title">
+                                                <a href="news-details.html">Nielsen's data found that New York City, Los Angeles and Portland are the top three </a>
+                                            </h2>
+                                        </div>
+                                    </div><!--/post-->
+                                </div>
+                            </div><!--/.health-section -->
+
+                        </div><!--/.middle-content-->
+                    </div><!--/#site-content-->
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+        </div><!--/.section-->
+
+    </div><!--/.container-fluid-->
 
 
 
@@ -217,7 +288,7 @@
 
 
 
-
+%{--*******************************************************footer********************************************************--}%
 
     <div class="footer-top">
         <div class="container-fluid">
