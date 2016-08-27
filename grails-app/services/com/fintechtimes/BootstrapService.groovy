@@ -21,7 +21,7 @@ class BootstrapService {
 
     public void createAuthors() {
         if (Author.count < 1) {
-            new File("${AppUtil.staticResourcesDirPath}/Author_DATA.csv").eachCsvLine { tokens ->
+            new File("${AppUtil.staticResourcesDirPath}/Author_Data.csv").eachCsvLine { tokens ->
                 Author author = new Author(tokens)
                 AppUtil.save(author)
                 UserRole.create(author, Role.findByAuthority("ROLE_AUTHOR"))
