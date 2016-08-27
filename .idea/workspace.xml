@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7aa4ee-b602-4d0d-97fc-bb4f3153e642" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NexThoughtsHackathon27Aug16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="RssFeedController.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="101" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="101" />
               <folding>
                 <element signature="e#23#58#0" expanded="true" />
               </folding>
@@ -171,8 +170,8 @@
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/fintechtimes/TestController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/fintechtimes/BootstrapService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy" />
       </list>
     </option>
   </component>
@@ -848,12 +847,12 @@
       <option name="presentableId" value="Default" />
       <updated>1472276068807</updated>
       <workItem from="1472276071891" duration="5643000" />
-      <workItem from="1472282356883" duration="1859000" />
+      <workItem from="1472282356883" duration="3666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7502000" />
+    <option name="totallyTimeSpent" value="9309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
@@ -1064,8 +1063,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/hackathon/RssFeedController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="101" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="101" />
           <folding>
             <element signature="e#23#58#0" expanded="true" />
           </folding>
