@@ -22,6 +22,7 @@ class RssFeedController {
         allURL.add("https://www.finextra.com/rss/channel.aspx?channel=mobile")
         allURL.add("https://www.finextra.com/rss/channel.aspx?channel=payments")
         allURL.add("http://feeds.feedburner.com/TechCrunch/")
+
         allURL.add("http://www.mobilepaymentstoday.com/rss/")
         allURL.add("http://thenextweb.com/feed/")
         allURL.each{
@@ -30,10 +31,11 @@ class RssFeedController {
             Admin admin=springSecurityService.currentUser as Admin
             SyndFeedInput input = new SyndFeedInput();
             SyndFeed feed = input.build(new XmlReader(feedUrl));
-            for(int i=0;i<feed.entries.size();i++){
+            for(int i=0; i<feed.entries.size(); i++){
                 try {
                     if(feed.entries[i].description.value.find(/(paytm)|(payments)|(fintech)|(freecharge)|(faircent)|(lending kart)/)){
 //                     println i
+                        
 //                        println feed.entries[i].title
 //                        println feed.entries[i].link
 //                        println feed.entries[i].description.value

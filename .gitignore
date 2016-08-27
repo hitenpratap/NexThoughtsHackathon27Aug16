@@ -33,6 +33,7 @@
 /target
 .classpath
 .idea/
+.slcache
 .project
 FinTechTimes-grailsPlugins.iml
 FinTechTimes.iml

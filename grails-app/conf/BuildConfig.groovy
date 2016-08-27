@@ -12,11 +12,11 @@ grails.project.fork = [
         //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
         // configure settings for the test-app JVM, uses the daemon by default
-        test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
+        test   : [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon: true],
         // configure settings for the run-app JVM
-        run: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+        run    : [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve: false],
         // configure settings for the run-war JVM
-        war: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+        war    : [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve: false],
         // configure settings for the Console UI JVM
         console: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256]
 ]
@@ -30,7 +30,8 @@ grails.project.dependency.resolution = {
     }
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
-    legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
+    legacyResolve false
+    // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
 
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
@@ -44,13 +45,31 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+        mavenRepo "http://oss.sonatype.org/content/repositories/snapshots"
     }
+
+    def gebVersion = "0.13.0"
+    def seleniumVersion = "2.52.0"
 
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0-grails-2.3"
+
+        compile "org.seleniumhq.selenium:selenium-support:${seleniumVersion}"
+        compile "org.gebish:geb-spock:$gebVersion"
+        compile "org.gebish:geb-junit4:$gebVersion"
+
+        //GEB Dependencies
+//        compile("org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion")
+//        compile("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
+//        compile "org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion"
+//        compile("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion")
+        compile("com.github.detro.ghostdriver:phantomjsdriver:1.0.1") {
+            excludes 'com.google.guava:guava:13.0.1'
+        }
+        compile 'org.codehaus.groovy:groovy-backports-compat23:2.4.5'
     }
 
     plugins {
@@ -70,6 +89,7 @@ grails.project.dependency.resolution = {
         compile "org.grails.plugins:rabbitmq:1.0.0"
         compile "org.grails.plugins:spring-security-core:2.0.0"
         compile "org.grails.plugins:csv:0.3.1"
+        compile "org.grails.plugins:geb:$gebVersion"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
         //runtime ":cached-resources:1.1"

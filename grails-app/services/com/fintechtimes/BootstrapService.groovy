@@ -14,23 +14,6 @@ class BootstrapService {
         createAdmin()
     }
 
-    public void createAdmin(){
-        Admin admin=new Admin()
-        admin.firstName="admin"
-        admin.lastName="Hackathon"
-        admin.username="admin"
-        admin.password="nextdefault"
-        admin.save(flush: true)
-        println(">>>>>>>>>>>>>>")
-        Role role=Role.findByAuthority("ROLE_ADMIN")
-        println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-        UserRole userRole=new UserRole()
-        userRole.user=admin
-        userRole.role=role
-        userRole.save(flush: true)
-
-    }
-
     public void createRoles() {
         if (Role.count < 1) {
             new Role(authority: 'ROLE_ADMIN').save(flush: true)
@@ -45,6 +28,14 @@ class BootstrapService {
                 AppUtil.save(author)
                 UserRole.create(author, Role.findByAuthority("ROLE_AUTHOR"))
             }
+        }
+    }
+
+    public void createAdmin() {
+        if (Admin.count < 1) {
+            Admin admin = new Admin(username: "admin1@email.com", password: "admin1928", firstName: "Admin", lastName: "Singh")
+            AppUtil.save(admin)
+            UserRole.create(admin, Role.findByAuthority("ROLE_ADMIN"))
         }
     }
 
