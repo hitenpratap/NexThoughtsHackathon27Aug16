@@ -1,5 +1,7 @@
 package com.hackathon
 
+import com.fintechtimes.Admin.Admin
+import com.fintechtimes.Article.ArticleQueueManager
 import com.rometools.rome.feed.synd.SyndFeed
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader
@@ -7,7 +9,7 @@ import grails.plugin.springsecurity.annotation.Secured;
 
 @Secured('IS_AUTHENTICATED_ANONYMOUSLY')
 class RssFeedController {
-
+def springSecurityService
     def index() {}
 
     def fetchRssContent(){
@@ -20,9 +22,10 @@ class RssFeedController {
                     println feed.entries[i].title
                     println feed.entries[i].link
                     println feed.entries[i].description.value
-                }
+                    ArticleQueueManager articleQueueManager=new ArticleQueueManager()
+                    Admin admin=springSecurityService.currentUser as Admin
             }
-        }catch (Exception e){
+        }}catch (Exception e){
             println("Exception is "+e.getMessage())
         }
 
